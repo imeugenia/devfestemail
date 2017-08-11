@@ -5,6 +5,9 @@
 
 .no-margin {
     margin: 0;
+    h3 {
+        margin: 0;
+    }
 }
 .red-bg {
     background: $secondary-color;
