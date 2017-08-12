@@ -1,7 +1,7 @@
 @import 'settings';
 @import 'foundation-emails';
 
-@import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Mono:400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:400,700|Roboto:400,700&subset=cyrillic');
 
 .no-margin {
     margin: 0;
@@ -22,4 +22,18 @@
 }
 .second-color {
     color: $secondary-color;
+}
+* {
+  hyphens: none;
+}
+.prim-color {
+    color: $primary-color;
+}
+.speakers {
+  h6, h3 {
+    margin-bottom: 20px;
+  }
+}
+.font-mono {
+  font-family: $header-font-family;
 }
